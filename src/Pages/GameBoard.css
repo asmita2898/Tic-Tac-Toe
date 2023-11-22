@@ -1,0 +1,174 @@
+.gameBoard {
+    display: flex;
+    justify-content: space-evenly;
+    width: 416px;
+    height: 550px;
+    border-radius: 43px;
+    background: #192A32;
+    margin: auto;
+    padding-top: 80px;
+  }
+  
+  .gameNavigator {
+    width: 416px;
+    height: 550px;
+    border-radius: 43px;
+    background: #192A32;
+    padding-top: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gameNavigator img {
+    width: 30%;
+    height: auto;
+    margin: 0.3em;
+    background-size: cover;
+  }
+  
+  .logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+  }
+  
+  .pickerWindow {
+    background-color: #1f3540;
+    margin: 1em;
+    border-radius: 0.5em;
+    width: 300px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .buttonHouse {
+    display: flex;
+    width: 70%;
+    height: 30%;
+    background-color: #192a32;
+    border-radius: 0.5em;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .buttonHouse button {
+    width: 30%;
+    height: 70%;
+    background-color: inherit;
+    border: none;
+    border-radius: 1px;
+    color: #192A32;
+    font-weight: 800;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .xBtn:focus {
+    background-color: #d9d9d9;
+    background-image: url(../Assets/x-dark.png);
+    border-radius: 0.5em;
+    outline: none;
+    fill: #192a32;
+    stroke: #192a32;
+  }
+  
+  .oBtn:focus {
+    background-color: #d9d9d9;
+    background-image: url(../Assets/o-dark.png);
+    border-radius: 0.5em;
+    outline: none;
+    fill: #192a32;
+    stroke: #192a32;
+  }
+  
+  .xBtn {
+    background-image: url(../Assets/x\ logo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .oBtn {
+    background-image: url(../Assets/o\ logo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    stroke: #d9d9d9;
+  }
+ 
+
+  .gameBtnsBlue {
+    background-color: #192A32;
+  }
+  
+  .GameContainer {
+    position: relative;
+    min-width: 21vw;
+  }
+  
+  .playGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 2em;
+    align-items: center;
+    height: 80vh;
+    min-width: 21vw;
+    justify-content: center;
+  }
+  
+  .newGame{
+    width: 307px;
+    height: 40px;
+    top: 438px;
+    left: 487px;
+    border-radius: 5px;
+    margin: 5px 0 0 55px;
+    font-family: DM Sans;
+    color: #192A32;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: #F2B237;
+  }
+
+  .newGame2{
+    width: 307px;
+    height: 40px;
+    top: 438px;
+    left: 487px;
+    border-radius: 5px;
+    margin: 5px 0 0 55px;
+    font-family: DM Sans;
+    color: #192A32;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: #32C4C3;
+  }
+
+  .invite{
+    width: 225px;
+    height: 33px;
+    border-radius: 5px;
+    background-color: #F2B237;
+    color: #192A32;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+  }

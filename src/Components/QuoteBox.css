@@ -1,0 +1,49 @@
+.quoteBox {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    background: #192A32;
+    text-align: center;
+    max-height: 35%;
+    min-height: 35%;
+    min-width: 15%;
+    max-width: 15%;
+    margin: 1em;
+    border-radius: 1em;
+  }
+
+  .quoteBox h3 {
+    color: #31C4BE;
+    margin: 0;
+    padding: 5%;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .quoteBox p {
+    color: #F2B237;
+    text-wrap: wrap;
+    min-height: 30%;
+    margin: 0;
+    padding: 3%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1em;
+  }
+
+  .quoteBox button {
+    background-image: url("../Assets/quote-symbol.png");
+    background-size: auto;
+    background-blend-mode: multiply;
+    margin-top: 1em;
+    background-color: #31C4BE;
+    border-radius: 50%;
+    border: none;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15%;
+    aspect-ratio: 1/1; 
+  }
+  
+  
